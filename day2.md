@@ -30,3 +30,9 @@ A container is a holder object that stores a collection of other objects (its el
   - unordered_multiset (Introduced in C++11)
   - unordered_map (Introduced in C++11)
   - unordered_multimap (Introduced in C++11)
+ 
+# `Functors`
+  The STL includes classes that overload the function call operator. Instances of such classes are called function objects or functors. Functors allow the working of the associated function to be customized with the help of parameters to be passed.
+
+# `Iterators`
+As the name suggests, iterators are used for working on a sequence of values. They are the major feature that allows generality in STL.
