@@ -2,4 +2,4 @@
 
 Useful Articles - 
 
-https://github.com/MaheshRautrao/Competitive-Programming-Learning/new/main 
+https://www.geeksforgeeks.org/competitive-programming-a-complete-guide/
