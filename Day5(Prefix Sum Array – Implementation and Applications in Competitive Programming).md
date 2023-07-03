@@ -39,3 +39,23 @@ Scan the largest element and we’re done. <br>
 
 Time Complexity: O(N + M), where N is the size of the array and M is the number of operations <br>
 Auxiliary Space: O(N) <br>
+
+## Find if there is a subarray with 0 sum
+
+  Follow the given steps to solve the problem:
+
+- Declare a variable sum, to store the sum of prefix elements <br>
+- Traverse the array and at each index, add the element into the sum and check if this sum exists earlier. If the sum exists, then return true <br>
+- Also, insert every prefix sum into a map, so that later on it can be found whether the current sum is seen before or not <br>
+- At the end return false, as no such subarray is found <br>
+
+```
+  arr[] = {1, 4, -2, -2, 5, -4, 3}
+
+Consider all prefix sums, one can notice that there is a subarray with 0 sum when :
+
+Either a prefix sum repeats or <br>
+Or prefix sum becomes 0. <br>
+Prefix sums for above array are: 1, 5, 3, 1, 6, 2, 5 <br>
+Since prefix sum 1 repeats, we have a subarray with 0 sum. <br>
+```
